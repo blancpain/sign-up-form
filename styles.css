@@ -1,0 +1,23 @@
+body {
+  height: 100vh;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.background {
+  overflow: hidden;
+  background-color: blue;
+}
+
+img {
+  width: auto;
+  height: 100%;
+}
+
+.main {
+  background-color: rgb(220, 208, 201);
+}
