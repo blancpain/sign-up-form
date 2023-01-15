@@ -15,37 +15,42 @@
       alt="sewing accessories, flowers and a lemon on a wooden floor" />
   </div>
   <div class="main">
-    <p>
-      This is not a real online service! You know you need something like this
-      in your life to help you realize your deepest dreams.
-    </p>
-    <div>Sign up now to get started</div>
-    <p>You know you want to!</p>
-    <p>Let's do this!</p>
-    <form action="">
-      <div class="main-form">
-        <div>
-          <label for="first_name">First Name </label><input type="text" id="first_name" />
-        </div>
-        <div>
-          <label for="last_name"></label>Last Name<input type="text" id="last_name" />
-        </div>
-        <div>
-          <label for="user_email">Email</label><input type="email" id="user_email" />
-        </div>
-        <div>
-          <label for="user_phone_number">Phone Number</label><input type="tel" id="user_phone_number" />
-        </div>
-        <div>
-          <label for="user_password">Password</label><input type="password" id="user_password" />
-        </div>
-        <div>
-          <label for="user_password">Confirm Password</label><input type="password" id="user_password" />
-        </div>
+    <div class="header">
+      <div>
+        This is not a real online service! You know you need something like
+        this in your life to help you realize your deepest dreams.
       </div>
+      <div>Sign up <i>now</i> to get started</div>
+      <p>You <i>know</i> you want to!</p>
+    </div>
+    <div class="outer-form">
+      <p>Let's do this!</p>
+      <form action="">
+        <div class="main-form">
+          <div>
+            <label for="first_name">First Name </label><input type="text" id="first_name" />
+          </div>
+          <div>
+            <label for="last_name"></label>Last Name<input type="text" id="last_name" />
+          </div>
+          <div>
+            <label for="user_email">Email</label><input type="email" id="user_email" required />
+          </div>
+          <div>
+            <label for="user_phone_number">Phone Number</label><input type="tel" id="user_phone_number" />
+          </div>
+          <div>
+            <label for="user_password">Password</label><input type="password" id="user_password" />
+          </div>
+          <div>
+            <label for="user_password">Confirm Password</label><input type="password" id="user_password" />
+          </div>
+        </div>
+    </div>
+    <div class='footer'>
       <button type="submit">Create Account</button>
-    </form>
-    <p>Already have an account? <a href="index.html">Log in</a></p>
+      <p>Already have an account? <a href="index.html">Log in</a></p>
+    </div>
   </div>
 </body>
 

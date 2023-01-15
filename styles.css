@@ -1,15 +1,39 @@
+:root {
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --main-bg-color: rgb(85, 67, 63);
+  --main-font-color: rgb(236, 229, 226);
+}
+
 body {
   height: 100vh;
+  background-color: var(--main-bg-color);
+  color: var(--main-font-color);
   display: flex;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  justify-content: space-between;
+}
+
+.main {
+  flex: 1;
+}
+
+.main .header,
+.main .footer {
+  padding-left: 40px;
+}
+
+.header {
+  margin-top: 5rem;
+  font-size: 1.5rem;
+  font-weight: 450;
+  text-align: left;
 }
 
 .background {
   overflow: hidden;
+  /* BGC just for testing purposes */
   background-color: blue;
 }
 
@@ -18,6 +42,16 @@ img {
   height: 100%;
 }
 
-.main {
-  background-color: rgb(220, 208, 201);
+.outer-form {
+  background-color: rgb(145, 127, 118);
+  padding-left: 40px;
+  margin-bottom: 2rem;
+  box-shadow: 0 8px 8px -4px rgb(145, 127, 118);
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+.outer-form p {
+  font-size: 1.5rem;
+  font-weight: 450;
 }
